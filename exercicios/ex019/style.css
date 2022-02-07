@@ -1,0 +1,26 @@
+/*
+    em HTML é id    = em CSS é #
+    em HTML é class = em css é .
+*/
+@charset "UTF-8";
+body {
+    background-image: linear-gradient(to left, #FC2803, #FE760A );
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: black;
+}
+#principal{         /*Aqui vamos configurar apenas o ID peincipal, ou seja, localmente*/
+    text-align: center; 
+}
+h2{
+    color: #000;
+
+}
+.basico{
+    color: #ffff;
+}
+.avancado{
+    color: rgb(65, 36, 230);
+}

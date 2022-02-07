@@ -1,0 +1,35 @@
+<!-- AULA 15 módulo 2 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes</title>
+    <style>
+        @font-face {        /*Aqui vamos usar uma fonte externa de algum site, mas temos que jogar o arquivo da fonte dentro de uma pasta onde está o programa para que possa gerar a fonte*/
+            font-family: 'Notícia' ;  /*Aqui vamo ter que colocar um nome para que seja possivel dar certo, no caso foi dado de noticia*/
+            src: url('OldLondon.ttf') format('opentype');
+            /*
+                Tipos de Format()
+                opentype (otf)
+                truetype (ttf)
+                embedded (opentype)
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{    /*Aqui vamo ter que colocar um nome para que seja possivel dar certo, no caso foi dado de noticia*/
+            font-family: 'Notícia', Times, serif;
+            font-size: 3em;
+            font-weight: normal; /*aqui usamos o font-weight para dizer que não usamos nenhum outro tipo de font*/
+        }
+    </style>
+</head>
+<body>
+    <h1>THE NEW YORK TIMES</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quia pariatur porro earum qui sed ipsa delectus recusandae aperiam obcaecati magni illum totam, dolor, architecto similique unde! Earum, iste veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptate vero magni quaerat consequuntur impedit natus vitae eos, eveniet temporibus ducimus totam obcaecati nam, dolorum pariatur fuga voluptas? Quae, odio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, accusantium voluptatibus sapiente consectetur fugit animi iure culpa eaque doloribus quam ab in ratione obcaecati quae aliquam accusamus blanditiis numquam. Voluptatem!</p>
+
+</body>
+</html>

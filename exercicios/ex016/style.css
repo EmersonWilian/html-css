@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* { 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    /*Aqui em font-family escolhemos o tipo de font que vamos */
+     /*Aqui vamos bloquear a página em 100% */
+}
+body {
+    background-image: linear-gradient(to left,#020873, #063573);
+    
+}
+main{
+    background-color: white;
+    border-radius: 10px; /*Essa parte serve para arredondar a parte das laterais que são quadradas*/
+    box-shadow: 5px 5px 5px #010329bb ; /*Vai ser uma sombra da parte em branco*/
+    width: 600px;
+    padding: 10px; /*paddin serve para dar um pequeno espaço no final e no começo*/
+    margin: auto; /*o margin serve para que crie uma margem e o texto fique sempre no centro do site*/
+}
+h1{
+    color:#F20707 ;
+    text-shadow: 1px 1px 2px #5a0303; /*Aqui vamos colocar uma leve sombra sobre o texto*/
+    text-align: center;
+    
+}
+h2{
+    color:#F25050 ;
+}
+h3{
+    color:#F25050 ;
+}
+p {
+    
+    text-align: justify; /*Aqui temos o texto na forma justificada*/
+}

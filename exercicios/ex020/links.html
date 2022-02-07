@@ -1,0 +1,59 @@
+
+<!--
+    #  = id
+    .  = Classe
+    :  = Pseudo-Classe
+    :: = Pseudo-Element
+    >  = Children
+
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de links</title>
+    <style>
+
+        body{
+            background-color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        a{
+            text-decoration: none; /*Aqui vamos tirar o siblinhado que fica em baixo do texto*/
+            color: red;
+            font-weight: bold;  /*aqui a fonte fica em negrito*/
+        }
+        #principal{
+            color: seagreen;
+        }
+        a:visited{ /*Aqui vamos colocar esse código pra quando um site ja foi visitado ficar de outra cor*/
+            color: chocolate;
+        }
+        a:hover{
+            color: cyan;    /*Aqui vamos ter que quando eu passo o mouse por cima ele fica azul*/
+            text-decoration: underline; /*Aqui vamos colocar uma linha em baixo das palavras*/
+        }
+        a:active{
+            color: darkorchid;
+        }
+        a::after{
+            content: '[Link]'; /*Serve para adicionar coisa depois do link sem interferir*/
+            text-decoration: none;
+            font-weight: normal;
+            color: darksalmon;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 id="principal">Personalizando links</h1>
+    <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">Repositório GitHub</a></li>
+    <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=24" target="_blank">Canal Youtube</a></li>
+    <li><a href="https://gatry.com/" target="_blank">Site do Gatry</a></li>
+    <li><a href="www.geografia.com" target="_blank">Geografia</a></li>
+    <li><a href="https://www.instagram.com/emersonoliiv/" target="_blank">Instagram</a></li>
+</body>
+</html>
