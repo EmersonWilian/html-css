@@ -11,10 +11,19 @@
         cover - vai adaptando a imagem de acordo com a tela sem picotar a imagem
         auto- diminuiu e aumenta de acordo com a tela que está sendo usada
         */
+        background-attachment: fixed; /*Aqui vamos fixar a imagem na tela pelo comando fixed e ele vai rolar apenas o texto, assim a imagem de fundo fica fixo ou vamos colocar ela como cover*/
+
+        /*Shorhands --> background
+        color> image > position > repeat > [size] > attachment
+        
+        sendo assim a abreviação: o size não irá funcionar por
+        background: black url(imagens/wallpaper002.jpg) center center no-repeat cover fixed;
+        */
+        
     }
     main{
         background-color: rgb(188, 211, 233);
-        width: 400px;
+        max-width: 400px;
         padding: 10px;
         margin: auto;
         border: 1px solid darkblue;
