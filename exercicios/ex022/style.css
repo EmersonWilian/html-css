@@ -1,0 +1,23 @@
+@charset "UTF-8";
+    body{
+        height: 100vh; /*Aqui temops que ele vai alinha na tela toda a imagem, mas temos que ele irá distorcer a imagem quando for maior e menor o monitor do cliente*/
+        background-color: black;
+        background-image: url(imagens/wallpaper002.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover; /*Aumenta e diminui a imagem de acordo com o tamanho da tela*/
+        /*
+        contain - deixa as laterais com faixas pretas
+        cover - vai adaptando a imagem de acordo com a tela sem picotar a imagem
+        auto- diminuiu e aumenta de acordo com a tela que está sendo usada
+        */
+    }
+    main{
+        background-color: rgb(188, 211, 233);
+        width: 400px;
+        padding: 10px;
+        margin: auto;
+        border: 1px solid darkblue;
+        border-radius: 15px;
+      
+    }
