@@ -9,7 +9,7 @@
 }
 
 :root{  /*Conhecemos essas declarações como declarações globais*/
-    --cor0: #8EF9F3;
+    --cor0: #8EF9F3; /*cor*/
     --cor1: #508CA4;
     --cor2: #2cdb92af; /*Mérodo de declarar uma cor*/
     --cor3: #3EC300;
