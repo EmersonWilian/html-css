@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body{
+    background-color: #334018;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden; /*Caso apareça uma barra de rolagem irá ser ocultado na página*/
+}
+.area-login{
+    display: flex; /*Vamos alinhar os itens*/
+    justify-content: center;
+    height: 100vh; /*aqui vai pegar toda a area disponivel do navegador*/
+    justify-content: center; /*vai alinhar o conteudo ao centro*/
+    align-items: center; /*Alinhando na vertical no centro*/
+}
+.login{
+    display: flex;
+    flex-direction: column; /*logo fica na proporção de coluna a cima dos inputs*/
+    align-items: center;
+    background-color: #242614;
+    width: 350px;
+    height: 320px;
+    border-radius: 2%;
+    padding: 35px;
+}
+.login form{
+    display: flex;
+    flex-direction: column; /*Comando para por em colunas*/
+    width: 100%;
+}
+.login input{
+    margin-top: 10px;
+    color: rgba(240, 248, 255, 0.671);
+    font-size: 14px;
+    padding-left: 10px;
+    background-color: #64732F;
+    border: none;
+    height: 45px;
+    outline: none; /*removendo bordas que aparece quando clicado nos input*/
+    border-radius: 8px;
+}
+.login img{ /*Alterando o tamanho da logo*/
+    width: 65px;   /*Tamanho*/
+    height: auto; /*altura*/
+}
+input::placeholder{ /*editando a cor das letras do campo*/
+    color: rgba(240, 248, 255, 0.671);
+    font-size: 15px;
+}
+form [type="submit"]{ /*Aqui vamos editar dentro de form o tipo que for de botão    */
+    display: block;
+    background-color: #B4BF5E;
+    font-size: 20px;
+    text-transform: uppercase; /*Deixa o texto em caixa alta/maiusculo*/
+    font-weight: bolder;
+    cursor: pointer; /*Colocando o simbolo de uma mão para acessar o site/enviar*/
+}
+p{
+    color: rgba(240, 248, 255, 0.671);
+}
+
+a{
+    text-decoration: none;
+    color: #B4BF5E;
+    margin-left: 7px;
+}
